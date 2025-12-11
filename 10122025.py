@@ -68,17 +68,17 @@ import seaborn as sns
 
 
 
-# plt.hist(df['Age'], bins=30)  # If you increase the number of bins, the histogram shows more detailed bars.
-# plt.xlabel("Age")
-# plt.ylabel("Count")
-# plt.title("Age Distribution")
-# # plt.show()
+plt.hist(df['Age'], bins=30)  # If you increase the number of bins, the histogram shows more detailed bars.
+plt.xlabel("Age")
+plt.ylabel("Count")
+plt.title("Age Distribution")
+plt.show()
 
 
-# plt.figure(figsize=(6, 4))
-# sns.boxplot(x=df['Fare'])
-# plt.title("Fare Boxplot")
-# # plt.show()
+plt.figure(figsize=(6, 4))
+sns.boxplot(x=df['Fare'])
+plt.title("Fare Boxplot")
+plt.show()
 
 
 plt.figure(figsize=(6,6))
