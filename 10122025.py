@@ -72,21 +72,13 @@ plt.hist(df['Age'], bins=30)  # If you increase the number of bins, the histogra
 plt.xlabel("Age")
 plt.ylabel("Count")
 plt.title("Age Distribution")
-<<<<<<< HEAD
-# plt.show()
-=======
 plt.show()
->>>>>>> 0e07f47d964cfa96b71160f13b361728618bb18f
 
 
 plt.figure(figsize=(6, 4))
 sns.boxplot(x=df['Fare'])
 plt.title("Fare Boxplot")
-<<<<<<< HEAD
-# plt.show()
-=======
 plt.show()
->>>>>>> 0e07f47d964cfa96b71160f13b361728618bb18f
 
 
 plt.figure(figsize=(6,6))
