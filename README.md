@@ -66,14 +66,17 @@ A few outliers appear around 500, but overall, the points are clustered in the l
 
 ---
 
-## 5. Project Files
+## Project Files
 
+```
 titanic-eda/
-│── 10122025.py
-│── age_hist.png
-│── fare_boxplot.png
-│── scatter_age_fare.png
+├── 10122025.py
+├── age_hist.png
+├── fare_boxplot.png
+├── scatter_age_fare.png
 └── README.md
+```
+
 
 ---
 
